@@ -39,7 +39,7 @@ Before you get down to coding, take a minute to consider this:
 
 ## 2. Setting up your development environment
 
-### 2.1. Installing Dependencies
+### 2.1 Installing Dependencies
 
 Install the following packages globally before you get started:
 
@@ -50,7 +50,7 @@ Install the following packages globally before you get started:
 Once they are installed globally, run `cargo build`, `forge build`, `forge test` and `slither .` to verify that they
 are working. Expect the slither command to print several warnings which are false positives or non-issues.
 
-### 2.2. Signing Commits
+### 2.2 Signing Commits
 
 All commits must be signed with a GPG key, which is a second factor that proves that your commits came from a device
 in your control. It protects against the case where your GitHub account gets compromised. To get started:
@@ -141,7 +141,7 @@ usage of contracts and estimate gas on those calls only. Our gas estimation suit
 
 When proposing a change, make sure that you've followed all of these steps before you ask for a review.
 
-### 3.1. Writing Tests
+### 3.1 Writing Tests
 
 All changes that involve features or bugfixes should have supporting Foundry tests. The tests should:
 
@@ -173,7 +173,7 @@ You should walk through the following steps locally before pushing a PR for revi
 If your changes increase gas usage, reduce coverage, introduce new slither issues or violate any solcurity rules
 you must document the rationale clearly in the PR and in the code if appropriate.
 
-### 3.4. Creating the PR
+### 3.4 Creating the PR
 
 All submissions must be opened as a Pull Request with a full CI run completed. Assign PR's to [@v / varunsrin](https://github.com/varunsrin)
 for review. When creating your PR:
